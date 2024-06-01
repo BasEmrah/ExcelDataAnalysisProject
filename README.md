@@ -48,7 +48,7 @@ Bu proje, "data" adlı bir veri kümesini analiz ederek anlamlı bilgiler çıka
 
 ## Gösterge Tablosu
 
-`ExcelProjectDashboard.png` adlı kapsamlı bir gösterge tablosu oluşturulmuş ve bu analizlerin sonuçlarını görsel olarak sunmaktadır. Gösterge tablosu, bulguları etkili bir şekilde iletmek için çeşitli grafikler ve çizelgeler içermektedir.
+`ExcelProjectDashboard.png` adlı gösterge tablosunun temsili bir görseli oluşturulmuş ve bu analizlerin sonuçlarını görsel olarak sunmaktadır. Gösterge tablosu, bulguları etkili bir şekilde elde etmek için çeşitli grafikler ve çizelgeler içeren `EmrahBas_ExcelProject.xlsx` dosyasında "Dashboard" kısmını inceleyebilirsiniz.
 
 ## Depo İçeriği
 
