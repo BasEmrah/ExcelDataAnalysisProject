@@ -1,3 +1,84 @@
+# Excel Data Analysis Project
+
+## Overview
+
+This project involves analyzing a dataset named "data" to extract meaningful insights and visualize the findings using Excel. The dataset includes information such as order details, shipping information, product categories, and customer segments. The main analyses conducted include determining the year with the highest profit, identifying the month with the highest profit within that year, identifying the country with the most orders, finding the product category with the highest shipping cost per unit in 2012, and determining the customer segment with the highest average discount (excluding zero discounts) in 2013.
+
+## Dataset
+
+The dataset stored in the `EmrahBas_ExcelProject.xlsx` file includes the following columns:
+
+- `order_id`: Unique identifier for each order.
+- `order_date`: Date the order was placed.
+- `ship_date`: Date the order was shipped.
+- `ship_mode_name`: Shipping mode (e.g., standard, expedited, express).
+- `segment`: Customer segment (e.g., consumer, corporate, home office).
+- `product_id`: Unique identifier for each product.
+- `category`: Product category (e.g., furniture, technology, office supplies).
+- `sub_category`: Product sub-category (e.g., chairs, phones, paper).
+- `product_name`: Name of the product.
+- `quantity`: Quantity of the product ordered.
+- `discount`: Discount rate applied to the order.
+- `profit`: Profit obtained from the order.
+- `shipping_cost`: Shipping cost of the order.
+- `order_priority`: Priority of the order (e.g., high, medium, low).
+- `sale_month`: Month of the sale.
+- `sale_year`: Year of the sale.
+- `state`: State/region where the order was shipped.
+- `country`: Country where the order was shipped.
+- `market`: Market area (e.g., global, local).
+- `region`: Region where the order was shipped.
+
+## Main Analyses
+
+1. **Year with the Highest Profit**
+   - Analyzed annual profit data to determine the year with the highest total profit.
+
+2. **Month with the Highest Profit in the Year with the Highest Profit**
+   - Analyzed monthly profit data within the year with the highest profit to determine the month with the highest profit.
+
+3. **Country with the Most Orders**
+   - Analyzed order data to identify the country with the most orders.
+
+4. **Product Category with the Highest Shipping Cost per Unit in 2012**
+   - Calculated the shipping cost per unit for each product category in 2012 to determine the category with the highest cost.
+
+5. **Customer Segment with the Highest Average Discount in 2013 (Excluding 0% Discounts)**
+   - Analyzed discount data for 2013 to identify the customer segment with the highest average discount, excluding zero discounts.
+
+## Dashboard
+
+A visual representation of the dashboard named `ExcelProjectDashboard.png` has been created, showcasing the results of these analyses. To view the dashboard effectively, please refer to the "Dashboard" section in the `EmrahBas_ExcelProject.xlsx` file, which includes various charts and graphs.
+
+## Repository Contents
+
+- `EmrahBas_ExcelProject.xlsx`: Excel file containing the raw data, conducted analyses, and created dashboard.
+- `ExcelProjectDashboard.png`: Visual representation of the analysis results in the form of a dashboard.
+- `README.md`: This documentation file explaining the project overview, dataset, analyses, and repository contents.
+
+## Usage Guide
+
+1. **Download the Repository**
+   - Clone or download the repository to your local computer.
+
+2. **Open the Excel File**
+   - Open the `EmrahBas_ExcelProject.xlsx` file to review the dataset, conducted analyses, and created dashboard.
+
+3. **View the Dashboard**
+   - Open the `ExcelProjectDashboard.png` file to review the visual representation of the analysis results.
+
+## Conclusion
+
+This project demonstrates the process of analyzing a dataset using Excel, performing key business analyses, and visualizing the results through an interactive dashboard. The insights gained from this analysis can help inform business decisions and strategies.
+
+For any questions or further information, please contact bas_emrah@hotmail.com.
+
+---
+
+Thank you for reviewing this project!
+
+---
+
 # Excel Veri Analizi Projesi
 
 ## Genel Bakış
@@ -71,8 +152,4 @@ Bu proje, "data" adlı bir veri kümesini analiz ederek anlamlı bilgiler çıka
 
 Bu proje, bir veri kümesini Excel kullanarak analiz etme, ana iş analizlerini gerçekleştirme ve sonuçları interaktif bir gösterge tablosu aracılığıyla görselleştirme sürecini göstermektedir. Bu analizden elde edilen bilgiler, iş kararlarını ve stratejilerini bilgilendirmeye yardımcı olabilir.
 
-Herhangi bir soru veya daha fazla bilgi için lütfen bas_emrah@hotmail.com.
-
 ---
-
-Bu projeyi incelediğiniz için teşekkürler!
